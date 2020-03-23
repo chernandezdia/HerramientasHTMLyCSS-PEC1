@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    -moz-columns: #000000;
+         columns: #000000;;
+    background:  #ffffff;
+}
+
+.header-bkg {
+  background-color: #517CEE !important;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

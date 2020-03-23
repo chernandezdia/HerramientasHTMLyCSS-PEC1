@@ -1,5 +1,9 @@
 body {
     height: 100vh;
-    color:red;
-    background: linear-gradient(to bottom, #bada55, #c0ffee);
-  }
+    columns: #000000;;
+    background:  #ffffff;
+}
+
+.header-bkg {
+  background-color: #517CEE !important;
+}

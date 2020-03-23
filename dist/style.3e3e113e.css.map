@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KACI,YAAa,CACb,SAAS,CACT,kDACF","file":"style.3e3e113e.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n    height: 100vh;\r\n    color:red;\r\n    background: linear-gradient(to bottom, #bada55, #c0ffee);\r\n  }"]}
