@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    -moz-columns: #000000;
+         columns: #000000;;
+    background:  #ffffff;
+}
+
+.header-bkg {
+  background-color: #517CEE !important;
+}
+
+
+::-webkit-input-placeholder {
+  color: gray;
+}
+
+
+::-moz-placeholder {
+  color: gray;
+}
+
+
+:-ms-input-placeholder {
+  color: gray;
+}
+
+
+::-ms-input-placeholder {
+  color: gray;
+}
+
+
+::placeholder {
+  color: gray;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
