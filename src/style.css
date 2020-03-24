@@ -7,3 +7,8 @@ body {
 .header-bkg {
   background-color: #517CEE !important;
 }
+
+
+::placeholder {
+  color: gray;
+}
