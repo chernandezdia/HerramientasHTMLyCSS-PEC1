@@ -9,30 +9,12 @@ body {
   background-color: #517CEE !important;
 }
 
-
-::-webkit-input-placeholder {
-  color: gray;
+.pt-40 {
+  padding-top: 40px;
 }
 
-
-::-moz-placeholder {
-  color: gray;
+.height-card {
+  height: 400px;
 }
-
-
-:-ms-input-placeholder {
-  color: gray;
-}
-
-
-::-ms-input-placeholder {
-  color: gray;
-}
-
-
-::placeholder {
-  color: gray;
-}
-
 
 /*# sourceMappingURL=/style.78032849.css.map */
