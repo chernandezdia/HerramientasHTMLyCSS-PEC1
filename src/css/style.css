@@ -14,21 +14,11 @@ body {
 }
 
 .header-bkg {
-  background-color: #517CEE !important;
+  background: url('/img/header-img.jpg') no-repeat fixed center;
+  background-size: cover;
+  color: #ffffff;
 }
 
 .card {
-  height: 95%;
-  color: #000000;
-}
-
-.card-body {
-  padding: 0;
-}
-
-.card-text {
-  width: 100%;
-  padding: 0px 15px 30px 15px;
-  margin-bottom: 10px;
-  text-align: center;
+  margin: 40px 20px 0px 20px;
 }
