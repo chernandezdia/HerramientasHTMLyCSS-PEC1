@@ -20,8 +20,20 @@ body {
   color: #ffffff;
 }
 
-.card {
-  margin: 40px 20px 0px 20px;
+main {
+  padding: 100px 0px 100px 0px;
 }
+
+main .card-title {
+  font-size: 28px;
+}
+
+.page-footer {
+  background-color: #274189;
+  color: #ffffff;
+}
+
+
+
 
 /*# sourceMappingURL=/style.78032849.css.map */

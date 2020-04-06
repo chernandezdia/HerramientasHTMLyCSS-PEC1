@@ -26,7 +26,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-color">
-        <a class="navbar-brand" href="#">Herramientas HTML y CSS</a>
+        <a class="navbar-brand" href="index.html">Herramientas HTML y CSS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,34 +34,27 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Module Bundlers
+                        Categorías
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/parcel.html">Parcel</a>
+                        <a class="dropdown-item" href="pages/module-bundlers.html">Module Bundlers</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pages/babel.html">Babel</a>
+                        <a class="dropdown-item" href="pages/lenguajes-frontend.html">Lenguajes del front-end</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pages/webpack.html">Webpack</a>
+                        <a class="dropdown-item" href="pages/preprocesadores.html">Preprocesadores</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Lenguajes del front-end
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/sass.html">Sass</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pages/postcss.html">PostCSS</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pages/typescript.html">TypeScript</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto<span class="sr-only"></span></a>
                 </li>
             </ul>
         </div>
@@ -75,82 +68,52 @@
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
     <main role="main">
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Parcel</h5>
-                                <p class="card-text">Empaquetador de aplicaciones web, que se diferencia
-                                    por la experiencia ofrecida a los desarrolladores.</p>
-                                <a href="pages/parcel.html" class="btn btn-primary">Go somewhere</a>
-                            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Preprocesadores</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Sass, TypeScript, PostCSS ...</h6>
+                            <p class="card-text">extienden las funcionalidades de un CSS común, permitiéndonos tener
+                                variables, funciones, mixins, reutilizar código, tener más flexibilidad al momento del
+                                desarrollo, etc.</p>
+                            <a href="pages/preprocesadores.html" class="card-link">Saber mas ...</a>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Babel</h5>
-                                <p class="card-text">Herramienta que nos permite transformar nuestro código JS para
-                                    cualquier
-                                    navegador o versión de Node.js.</p>
-                                <a href="pages/babel.html" class="btn btn-primary">Saber mas ... </a>
-                            </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Module Bundlers</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Webpack, Babel, Parcel ...</h6>
+                            <p class="card-text">Software que se encarga de analizar el árbol de relaciones y
+                                dependencias existentes entre los distintos módulos de un programa y de empaquetarlos en
+                                un archivo único.</p>
+                            <a href="pages/module-bundlers.html" class="card-link">Saber mas ...</a>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Webpack</h5>
-                                <p class="card-text">Sistema de bundling para preparar el desarrollo de una aplicación
-                                    web para producción.</p>
-                                <a href="pages/webpack.html" class="btn btn-primary">Saber mas ... </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">PostCSS</h5>
-                                <p class="card-text">Herramienta para convertir CSS
-                                    mediante JavaScript con plugins ya creados o creando uno
-                                    propio.</p>
-                                <a href="pages/postcss.html" class="btn btn-primary">Saber mas ... </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">TypeScript</h5>
-                                <p class="card-text">Amplía Javascript con una nueva sintaxis que añade, tipado
-                                    estático
-                                    opcional, genéricos, elementos de POO, etc.</p>
-                                <a href="pages/typescript.html" class="btn btn-primary">Saber mas ... </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Sass</h5>
-                                <p class="card-text">Extensión CSS que añade características muy potentes y
-                                    elegantes
-                                    a este lenguaje de estilos.</p>
-                                <a href="pages/sass.html" class="btn btn-primary">Saber mas ... </a>
-                            </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenguajes del Front-end</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">HTML, CSS y JavaScript</h6>
+                            <p class="card-text">Frontend es la parte de un programa o dispositivo a la que un usuario
+                                puede acceder directamente. HTML, CSS y JavaScript son los lenguajes principales del
+                                Frontend.</p>
+                            <a href="pages/lenguajes-frontend.html" class="card-link">Saber mas ...</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
     <footer class="page-footer font-small blue">
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://mdbootstrap.com/"> Carla Hernández Díaz</a>
+            <a href="#"> Carla Hernández Díaz</a>
         </div>
         <!-- Copyright -->
     </footer>
