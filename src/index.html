@@ -1,124 +1,45 @@
-<!DOCTYPE html>
-<html>
+<div class="container md-bundler">
+    <div class="row bg-color-1 p-50">
+        <div class="col-lg-6">
+            <img class="img-fluid rounded pb-20" src="../img/desarrollador-web.png" alt="">
+        </div>
+        <div class="col-lg-6 text-justify">
+            <h1 class="font-weight-italic">Module bundlers</h1>
+            <hr>
+            <p class="font-weight-light">Los paquetes de módulos son herramientas que los desarrolladores
+                frontales utilizan
+                para agrupar módulos JavaScript en un solo archivo JavaScript que se puede ejecutar en el
+                navegador.</p>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Carla Hernández Díaz">
-    <meta name="description" content="Práctica 1 de las asignatura HTML y CSS">
-    <meta name="keywords" content="HTML, CSS, XML, JavaScript, Boilerplate, Babel, Parcel, Autoprefixer, PostCSS">
+            <!--<p>Por lo general, comienza con un archivo de entrada, y desde allí agrupa todo el código necesario
+                para ese archivo de entrada.</p>-->
 
-    <title>PEC1 - Herramientas HTML y CSS</title>
+            <p class="font-weight-light">Alguno de los module bundlers son: webpack, parcel, babel, rollup,
+                fusebox, etc.</p>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
-
-    <script src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js"></script>
-
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-color">
-        <a class="navbar-brand" href="index.html">Herramientas HTML y CSS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categorías
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/module-bundlers.html">Module Bundlers</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pages/lenguajes-frontend.html">Lenguajes del front-end</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pages/preprocesadores.html">Preprocesadores</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros<span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto<span class="sr-only"></span></a>
-                </li>
+            <!--<p>Hay dos etapas principales de un paquete:</p>
+            <ul>
+                <li>Resolución de dependencia</li>
+                <li>Empaquetado</li>
             </ul>
+
+            <h4 class="">Resolución de dependencias</h4>
+            <p>Por lo general, comienza con un archivo de entrada, y desde allí agrupa todo el código necesario
+                para ese archivo de entrada.</p>
+
+            <p>Alguno de los module bundlers son: webpack, parcel, babel, rollup, fusebox, etc.</p>
+
+            <h4 class="">Empaquetado</h4>
+            <p>Por lo general, comienza con un archivo de entrada, y desde allí agrupa todo el código necesario
+                para ese archivo de entrada.</p>
+
+            <p>Alguno de los module bundlers son: webpack, parcel, babel, rollup, fusebox, etc.</p>-->
+
         </div>
-    </nav>
-    <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light header-bkg">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 font-weight-normal">Herramientas HTML y CSS</h1>
-            <p class="lead font-weight-normal">Universitat Oberta de Catalunya</p>
-        </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
-    <main role="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Preprocesadores</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Sass, TypeScript, PostCSS ...</h6>
-                            <p class="card-text">extienden las funcionalidades de un CSS común, permitiéndonos tener
-                                variables, funciones, mixins, reutilizar código, tener más flexibilidad al momento del
-                                desarrollo, etc.</p>
-                            <a href="pages/preprocesadores.html" class="card-link">Saber mas ...</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Module Bundlers</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Webpack, Babel, Parcel ...</h6>
-                            <p class="card-text">Software que se encarga de analizar el árbol de relaciones y
-                                dependencias existentes entre los distintos módulos de un programa y de empaquetarlos en
-                                un archivo único.</p>
-                            <a href="pages/module-bundlers.html" class="card-link">Saber mas ...</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Lenguajes del Front-end</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">HTML, CSS y JavaScript</h6>
-                            <p class="card-text">Frontend es la parte de un programa o dispositivo a la que un usuario
-                                puede acceder directamente. HTML, CSS y JavaScript son los lenguajes principales del
-                                Frontend.</p>
-                            <a href="pages/lenguajes-frontend.html" class="card-link">Saber mas ...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-    <footer class="page-footer font-small blue">
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="#"> Carla Hernández Díaz</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-</body>
-
-
-
-</html>
+</div>
+<div class="text-white mt-100 mb-100 pt-50 pb-50 jumbotron">
+    <div class="container text-center">
+        <p class="font-weight-light">Tipos de module bundlers</p>
+    </div>
+</div>
