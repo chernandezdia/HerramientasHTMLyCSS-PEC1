@@ -121,7 +121,6 @@ padding-left: 10px;
 }
 
 #cont-navbar a {
-  color: #ffffff !important;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -129,9 +128,23 @@ padding-left: 10px;
   margin: 0px 10px; 
 }
 
+.nav-link {  
+  color: #ffffff !important;
+}
 
+.dropdown-item {  
+  color: #0A1F5C !important;
+  width: auto !important;
+}
 
+.dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #0A1F5C;
+}
 
+.item-navbar {
+  
+}
 
 /* Module bundler */
 .md-bundler {
