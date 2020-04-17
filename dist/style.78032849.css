@@ -85,6 +85,10 @@ main .card-title {
 padding-left: 10px;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
